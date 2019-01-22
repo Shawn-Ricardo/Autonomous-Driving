@@ -1,4 +1,4 @@
-# German-Traffic-Sign-Classification
+# Traffic Sign Classification
 Build a Convolutional Neural Network (CNN) in TensorFlow to classify German traffic signs.
 
 This project works with the German Traffic Sign Dataset (http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset) which consists of 50,000 colored images of German traffic signs. Each image belongs to 1 of 43 categories, i.e., "stop", "yield", "double curve", "bumpy road", etc.
