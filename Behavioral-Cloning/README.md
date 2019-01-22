@@ -3,9 +3,7 @@ Use Keras to train a Deep Neural Network to clone human driving behavior, then d
 
 In Behavioral Cloning, a neural network is trained to clone certain behavior. In the example of a self-driving car, the network will mimic the behaviors of the human driver -- accelerating, turning, or decelerating as a human would, when a human would.
 
-The scenario in this repository is very similar to the scenario in the following paper, "End to End Learning for Self-Driving Cars", published by several engineers from NVIDIA. The paper can be found here, 
-
-http://images.nvidia.com/content/tegra/automotive/images/2016/solutions/pdf/end-to-end-dl-using-px.pdf
+The scenario in this repository is very similar to the scenario in the following paper, ["End to End Learning for Self-Driving Cars"](http://images.nvidia.com/content/tegra/automotive/images/2016/solutions/pdf/end-to-end-dl-using-px.pdf), published by several engineers from NVIDIA. 
 
 The authors of the paper obtained excellent results when using a neural network as the sole means of decision making for driving a car in the real-world. The same concepts present in that real-life application are also present in this simulation environment, which makes this project incredibly practical and powerful.
 
