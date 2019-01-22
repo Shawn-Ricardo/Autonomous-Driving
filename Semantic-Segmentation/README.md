@@ -1,7 +1,8 @@
 # Semantic-Segmentation
 Create and train a Fully Convolutional Network (FCN) using VGG16 in TensorFlow, painting each pixel in an image based on its class.
 
-![ex_image](https://raw.github.com/Shawn-Ricardo/Semantic-Segmentation/master/network_output/road_2.png)
+<p align="center"> <img src="network_output/road_2.png"></p>
+
 
 FCNs represent the forefront of Scene Understanding, which answers "where" in an image is the object of interest. Scene Understanding is a vital component of autonomous vehicle functionality, greatly enhancing perception and producing higher quality decision making.
 
