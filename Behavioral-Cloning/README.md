@@ -11,7 +11,7 @@ The authors of the paper obtained excellent results when using a neural network 
 
 To create the image database on which this network is trained, a race track simulator is used. The simulator will capture 3 images from the perspective of the front of the vehicle, shown below. 
 
-![ex_image](https://raw.github.com/Shawn-Ricardo/Behavioral-Cloning/master/image_store/3_images.png)
+<p align="center"> <img src="image_store/3_images.png"></p>
 
 For every set of images, the corresponding steering angle, throttle, break, and speed, are recorded. Paths to these images and the vehicle metrics are saved in a CSV file. To collect data, a human operator simply drives the car around the race track and the simulator collects the data.
 
@@ -23,11 +23,11 @@ After, the model will normalize the data in order to obtain a zero mean. Having 
 
 Lastly, the image is cropped by the network. As seen below, the image contains a lot of unncessary information, like trees, sky, mountains, and part of the hood. If the original image is used, the network will associate the information about the trees, sky, mountains, and parts of the hood with the steering angle. Cropping is performed in order to remove this unncessary information and allow the network to focus solely on the road.
 
-![ex_image](https://raw.github.com/Shawn-Ricardo/Behavioral-Cloning/master/image_store/cropped.png)
+<p align="center"> <img src="image_store/cropped.png"></p>
 
 The architecture of the network is consistent with that in the paper above and is shown below. For more information on convolutional networks, take a look at the other Deep Learning projects located on this page. 
 
-![ex_image](https://raw.github.com/Shawn-Ricardo/Behavioral-Cloning/master/image_store/network_architecture.png)
+<p align="center"> <img src="image_store/network_architecture.png"></p>
 
 Behavioral Cloning has significant advantages over a general robotics approach. In the traditional approach, a great deal of time and testing are spent generating complex motion models that describe vehicle movement and control. With neural networks, the network figures out what is important by itself through repetitive exposure to training data. In fact, deep learning allows for a feedback loop -- where more time driving results in more data collected and more data to train on. This concept is what makes neural networks so powerful.
 
