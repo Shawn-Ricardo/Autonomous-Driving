@@ -33,7 +33,7 @@ Behavioral Cloning has significant advantages over a general robotics approach. 
 
 The following video shows the network driving the car around the track autonomously. The simulator and python program (which implemented the nerual network) communicate through a port. An image is sent to the program which it feeds to the network. The network will return a steering angle prediction, which can be seen on the left side of the video. The number on the right side of the steering angle (which is 0.2) is the speed. That is kept constant. 
 
-https://youtu.be/_Wrg35xaDzk
+<p align="center"> <img src="image_store/behavioral_cloning.gif"></p>
 
 The performance seen is the result of myself collecting data for a few laps (equal to a couple of minutes). In a real-world scenario, data collection would take many days and result in hundreds of thousands of images, as done in the paper above. 
 
