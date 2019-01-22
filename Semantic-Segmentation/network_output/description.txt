@@ -1,0 +1,1 @@
+Classifies each pixel in the image as part of the road or not. The network will paint road pixels green in the original image.
