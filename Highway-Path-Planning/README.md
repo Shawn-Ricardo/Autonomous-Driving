@@ -3,13 +3,7 @@ Create a model that drives a car down a highway autonomously.
 
 The goal is to design a Path Planner that is able to create smooth, safe paths for the car to follow along a 3 lane highway with traffic.
 
-
-
-
-![ex_image](https://raw.github.com/Shawn-Ricardo/Highway-Path-Planning/master/Eigen-3.3/simulator.png)
-
-
-
+<p align="center"> <img src="images/simulator.png" width="640" height="360"></p>
 
 This path planner placed in the top 25 in the Bosch Path Planning Challenge, which judged on fastest completion time without incident. Information on the challenge can be view here:
 
