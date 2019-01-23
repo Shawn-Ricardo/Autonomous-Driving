@@ -26,5 +26,16 @@ The process of adapting a pre-trained model for a similar purpose than what was 
 Main.py contains deeper discussions of FCN architecture and actual implementation using Tensorflow. It describes in-detail the role of each function, FCN concepts, and variables, as they relate to a Fully Convolutional Network.
 
 
+## <p align="center"> Network Output </p>
+
+<p align="center"> <img src="network_output/road_1.png"></p>
+
+<p align="center"> <img src="network_output/road_3.png"></p>
+
+<p align="center"> <img src="network_output/road_4.png"></p>
+
+<p align="center"> <img src="network_output/road_5.png"></p>
+
+<p align="center"> <img src="network_output/road_6.png"></p>
 
 
