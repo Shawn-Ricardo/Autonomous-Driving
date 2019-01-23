@@ -8,12 +8,10 @@ FCNs represent the forefront of Scene Understanding, which answers "where" in an
 
 The network architecture is an implementation of the model used in the paper, "Fully Convolutional Networks For Semantic Segmentation", by Long, Shelhamer, and Darrell. The paper can be viewed here,
 
-Fully Convolutional Models for Semantic Segmentation
+[Fully Convolutional Models for Semantic Segmentation](https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf)
 Evan Shelhamer*, Jonathan Long*, Trevor Darrell
 PAMI 2016
 arXiv:1605.06211
-
-https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf
 
 Convolutional networks classify an image as either containing the object of interest or not. Typically, the strucutre of a convolutional network contains a series of convolution, pooling, and activation layers followed by a fully connected layer(s). Important spatial information that identifies where an object is located within an image is lost at the transition into fully connected layer(s).
 
