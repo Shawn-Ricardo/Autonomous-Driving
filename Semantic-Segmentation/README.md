@@ -1,4 +1,4 @@
-# Semantic-Segmentation
+# <p align="center"> Semantic-Segmentation </p>
 Create and train a Fully Convolutional Network (FCN) using VGG16 in TensorFlow, painting each pixel in an image based on its class.
 
 <p align="center"> <img src="network_output/road_2.png"></p>
