@@ -1,7 +1,7 @@
 # <p align="center"><b> Path Plannng </b></p>
 
 <p align="center">
-<img src="images/self_driving.gif">
+<img src="images/self_drive.gif">
 </p>
 
 <p align="center">
