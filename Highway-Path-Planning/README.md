@@ -1,22 +1,17 @@
-# Path-Planning
-Create a model that drives a car down a highway autonomously.
+# <p align="center"><b> Path Plannng </b></p>
 
-The goal is to design a Path Planner that is able to create smooth, safe paths for the car to follow along a 3 lane highway with traffic.
+<p align="center">
+<img src="images/self_driving.gif">
+</p>
 
-<p align="center"> <img src="images/simulator.png" width="640" height="360"></p>
+<p align="center">
+  <sup> A model that drives a car down a highway autonomously. </sup>
+</p>
 
-This path planner placed in the top 25 in the Bosch Path Planning Challenge, which judged on fastest completion time without incident. Information on the challenge can be view here:
-
-https://www.udacity.com/bosch-challenge
-
-and a video of the path planner driving Bosch's test track can be viewed here:
-
-https://youtu.be/yUMakqBSwp0
+This path planner placed in the top 25 in the [Bosch Path Planning Challenge](https://www.udacity.com/bosch-challenge), which judged on fastest completion time without incident; [full video](https://youtu.be/yUMakqBSwp0)
 
 
-This path planning model has driven 7 miles successfully in Udacity's highway simulator -- the score rubic was 5 miles. A video of the path planner driving Udacity's track can be viewed here:
-
-https://youtu.be/UYd1KcT7Z4s
+This path planning model has driven 7 miles successfully in a highway simulator. A video of the path planner driving successfully driving the track can be viewed [here](https://youtu.be/UYd1KcT7Z4s).
 
 
 A successful path planner will be able to keep inside its lane, avoid hitting other cars, and pass slower moving traffic all by using localization, sensor fusion, and map data.
